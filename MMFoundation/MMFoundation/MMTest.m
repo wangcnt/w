@@ -11,7 +11,7 @@
 @implementation MMTest
 
 - (void)hello {
-    NSLog(@"HEllo");
+    NSLog(@"Hello world.");
 }
 
 @end
