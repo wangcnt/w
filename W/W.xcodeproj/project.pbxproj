@@ -36,6 +36,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4D9D2E9921039040003FDC89 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4D69EF511FD6EEB30090B9E3 /* W.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D69EF541FD6EEB30090B9E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +70,7 @@
 		4D69EF7D1FD6EEB30090B9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D69EF8A1FD6EEED0090B9E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		4D69EF8B1FD6EFA10090B9E3 /* IMG_0876.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0876.JPG; sourceTree = "<group>"; };
+		4D9D2E9421038FC2003FDC89 /* MMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +159,7 @@
 		4D69EF891FD6EEED0090B9E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D9D2E9421038FC2003FDC89 /* MMFoundation.framework */,
 				4D69EF8A1FD6EEED0090B9E3 /* WebKit.framework */,
 			);
 			name = Frameworks;
@@ -160,6 +175,7 @@
 				4D69EF4D1FD6EEB30090B9E3 /* Sources */,
 				4D69EF4E1FD6EEB30090B9E3 /* Frameworks */,
 				4D69EF4F1FD6EEB30090B9E3 /* Resources */,
+				4D9D2E9921039040003FDC89 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
