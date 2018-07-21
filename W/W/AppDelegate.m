@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import <MMFoundation/MMFoundation.h>
+//#import <MMFoundation/MMFoundation.h>
 
 @interface AppDelegate ()
 
@@ -20,8 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    MMTest *test = [[MMTest alloc] init];
-    [test hello];
+//    MMTest *test = [[MMTest alloc] init];
+//    [test hello];
     
     [self sort];
     return YES;
