@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MMLog/MMLog.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MMFoundation/MMFoundation.xcodeproj">
    </FileRef>
    <FileRef

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2F73F021049EF5008E5ED6 /* MMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2F73EF21049EF5008E5ED6 /* MMFoundation.framework */; };
+		4D2F741A2104ABFC008E5ED6 /* MMLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2F74192104ABFC008E5ED6 /* MMLog.framework */; };
 		4D69EF561FD6EEB30090B9E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69EF551FD6EEB30090B9E3 /* AppDelegate.m */; };
 		4D69EF591FD6EEB30090B9E3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69EF581FD6EEB30090B9E3 /* FirstViewController.m */; };
 		4D69EF5C1FD6EEB30090B9E3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69EF5B1FD6EEB30090B9E3 /* SecondViewController.m */; };
@@ -50,6 +52,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D2F73EF21049EF5008E5ED6 /* MMFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MMFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2F74192104ABFC008E5ED6 /* MMLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MMLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D69EF511FD6EEB30090B9E3 /* W.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D69EF541FD6EEB30090B9E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D69EF551FD6EEB30090B9E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2F741A2104ABFC008E5ED6 /* MMLog.framework in Frameworks */,
+				4D2F73F021049EF5008E5ED6 /* MMFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +165,8 @@
 		4D69EF891FD6EEED0090B9E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D2F74192104ABFC008E5ED6 /* MMLog.framework */,
+				4D2F73EF21049EF5008E5ED6 /* MMFoundation.framework */,
 				4D9D2E9421038FC2003FDC89 /* MMFoundation.framework */,
 				4D69EF8A1FD6EEED0090B9E3 /* WebKit.framework */,
 			);
