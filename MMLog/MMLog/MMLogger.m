@@ -11,7 +11,7 @@
 @implementation MMLogger
 
 - (void)log {
-    NSLog("This is a log");
+    NSLog(@"This is a log");
 }
 
 @end
